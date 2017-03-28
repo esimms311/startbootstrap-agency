@@ -220,10 +220,10 @@ header {
 // Global Section Styles
 
 section {
-    padding: 100px 0;
+    padding: 50px, 0;
     h2.section-heading {
         font-size: 40px;
-        margin-top: 0;
+        margin-top: 0px;
         margin-bottom: 15px;
     }
     h3.section-subheading {
@@ -238,9 +238,9 @@ section {
 
 @media(min-width:768px) {
     section {
-        padding: 150px 0;
+        padding: 50px 0;
     }
-}
+  }
 
 // Services Section
 
@@ -252,6 +252,7 @@ section {
 
 #services {
   background-color: $gray-lighter;
+  // width: 100%;
 }
 
 .individual-pane {
@@ -340,6 +341,10 @@ section {
         .portfolio-item {
             margin: 0 0 30px;
         }
+    }
+    h2.section-heading{
+      // padding: 200px 0;
+      // height: 150vh;
     }
 }
 
@@ -550,8 +555,15 @@ section {
 @media(max-width: 360px) {
   aside.clients {
     img {
-      width: 20vw;
+      // height: 10vh;
+      width: 20px;
     }
+  }
+  h2.section-heading{
+    padding: 50px 0;
+  }
+  #services {
+    height: 120vh;
   }
 }
 
@@ -773,12 +785,13 @@ body {
   flex-wrap: wrap;
   align-items: center;
   height: 50vh;
+  width: 100%;
   justify-content: center;
 }
 
 .skills-name {
   font-weight: bold;
-  padding-top: 15px;
+  padding-top: 25px;
   font-size: 16px;
 }
 

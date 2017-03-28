@@ -240,10 +240,10 @@ header {
       margin-bottom: 50px; } }
 
 section {
-  padding: 100px 0; }
+  padding: 50px, 0; }
   section h2.section-heading {
     font-size: 40px;
-    margin-top: 0;
+    margin-top: 0px;
     margin-bottom: 15px; }
   section h3.section-subheading {
     font-size: 16px;
@@ -255,7 +255,7 @@ section {
 
 @media (min-width: 768px) {
   section {
-    padding: 150px 0; } }
+    padding: 50px 0; } }
 
 .service-heading {
   margin: 15px 0;
@@ -483,7 +483,11 @@ section {
 
 @media (max-width: 360px) {
   aside.clients img {
-    width: 20vw; } }
+    width: 20px; }
+  h2.section-heading {
+    padding: 50px 0; }
+  #services {
+    height: 120vh; } }
 
 aside.clients img {
   width: 10vw;
@@ -661,11 +665,12 @@ body {
   flex-wrap: wrap;
   align-items: center;
   height: 50vh;
+  width: 100%;
   justify-content: center; }
 
 .skills-name {
   font-weight: bold;
-  padding-top: 15px;
+  padding-top: 25px;
   font-size: 16px; }
 
 .row {
