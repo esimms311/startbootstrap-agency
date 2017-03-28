@@ -557,7 +557,7 @@ aside.clients {
 @media (max-width: 360px) {
   aside.clients {
     img {
-      width: 20vw;
+      width: 40vw;
 
     }
   }
@@ -809,4 +809,11 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   text-align: center;
+}
+
+@media (max-width:360px) {
+  p {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
 }
